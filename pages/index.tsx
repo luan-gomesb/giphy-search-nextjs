@@ -43,7 +43,7 @@ const Home: NextPage = () => {
         <div className="p-5">
           <form onSubmit={handleSubmit}>
             <input
-              className="rounded-md p-2 text-white mx-4"
+              className="rounded-md p-2  mx-4"
               type="search"
               onChange={handleChange}
               value={searchTerm}
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
             </button>
           </form>
           <Link href={`search/${searchTerm}`} target="_blank">
-            Show in another tab
+            Show in new  tab
           </Link>
         </div>
         <ResultView giphys={searchResults} />
